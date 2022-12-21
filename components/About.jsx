@@ -40,7 +40,7 @@ const About = () => {
             </a>
           </div>
         </div>
-        <div className="w-full h-auto m-auto shadow-gray-400 rounded-xl flex items-center justify-center p4 hover:scale-105 ease-in duration-300">
+        <div className="w-full h-auto m-auto shadow-gray-400 rounded-xl flex items-center justify-center p4">
           <Image src={profilePic} alt="/" style={{ borderRadius: "30px" }} />
         </div>
       </div>
