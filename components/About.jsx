@@ -16,10 +16,10 @@ const About = () => {
           </p>
           <p className="py-2 text-gray-600">
             Developer since 2018. I&apos;ve mainly worked as a software
-            developer, using Delphi IDE to build features for a WMS (Warehouse
-            Management System). I also enjoy training myself and learn more
-            about new technologies, especially on web technologies such as
-            React.JS
+            developer, using Delphi IDE and SQL to build features for a WMS
+            (Warehouse Management System). I also enjoy training myself and
+            learn more about new technologies, especially on web technologies
+            such as React.JS
           </p>
           <p className="py-2 text-gray-600">
             Passionate about Ethereum, I&apos;ve learned Solidity to be able to
@@ -30,6 +30,15 @@ const About = () => {
               Check out some of my latest projects
             </p>
           </Link>
+          <div className="flex items-center justify-center py-4">
+            <a
+              href="https://certificate.bcdiploma.com/check/2541E53C7002EBEBDBF4066CD5434386628F032A419EA3230AAF89F6A342D4E9RzVnbTRwZWpRZTRsWUtDazNwMTRRbHpzT0ozWXZhRFVyeU5tZHJHNjl5Tm52VDR1"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Image src="/assets/badge.svg" alt="/" width={250} height={250} />
+            </a>
+          </div>
         </div>
         <div className="w-full h-auto m-auto shadow-gray-400 rounded-xl flex items-center justify-center p4 hover:scale-105 ease-in duration-300">
           <Image src={profilePic} alt="/" style={{ borderRadius: "30px" }} />
