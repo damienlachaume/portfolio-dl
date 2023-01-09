@@ -28,7 +28,7 @@ const Contact = () => {
               </div>
               <div>
                 <h2 className="py-2">Damien Lachaume</h2>
-                <p>Smart Contract Developer</p>
+                <p>Blockchain Developer</p>
                 <p className="py-4">
                   I am available to work with you.
                   <br /> Contact me and let&apos;s talk.
@@ -86,7 +86,7 @@ const Contact = () => {
           <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 border-2 rounded-xl lg:p-4">
             <div className="p-4">
               <form
-                action="https://getform.io/f/d7da5889-a3ad-4547-bb25-47a11c6f6139"
+                action="https://getform.io/f/f1d627ae-52a2-4756-9836-862af0d7d9e4"
                 method="POST"
                 encType="multipart/form-data"
               >

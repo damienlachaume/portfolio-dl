@@ -148,6 +148,51 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
+                  src="/assets/skills/vscode.png"
+                  alt="/"
+                  width={64}
+                  height={64}
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>VS Code</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl border-2 rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image
+                  src="/assets/skills/delphi.png"
+                  alt="/"
+                  width={64}
+                  height={64}
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Delphi</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl border-2 rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image
+                  src="/assets/skills/sql.png"
+                  alt="/"
+                  width={64}
+                  height={64}
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>SQL</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl border-2 rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image
                   src="/assets/skills/tailwind.png"
                   alt="/"
                   width={64}
@@ -155,7 +200,22 @@ const Skills = () => {
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>Tailwind</h3>
+                <h3>Tailwind CSS</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl border-2 rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image
+                  src="/assets/skills/styled.png"
+                  alt="/"
+                  width={64}
+                  height={64}
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Styled Components</h3>
               </div>
             </div>
           </div>

@@ -18,7 +18,7 @@ const Main = () => {
           <h1 className="py-4 mt-3 text-gray-700">
             Hi, I&apos;m <span className="text-[#23d997]"> Damien</span>
           </h1>
-          <h1 className="py-2 text-gray-700">Smart Contract Developer</h1>
+          <h1 className="py-2 text-gray-700">Blockchain Developer</h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
             Passionate about the blockchain ecosystem and its use cases,
             I&apos;ve learned programing Smart Contract with

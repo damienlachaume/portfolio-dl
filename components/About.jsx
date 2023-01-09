@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import profilePic from "../public/assets/me.png";
+import profilePic from "../public/assets/me.jpg";
 
 const About = () => {
   return (
