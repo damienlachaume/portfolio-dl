@@ -1,5 +1,6 @@
 import React from "react";
 import greenloopImg from "../public/assets/projects/greenloop.jpg";
+import nftGameImg from "../public/assets/projects/nftgame.jpg";
 import voteImg from "../public/assets/projects/voting.jpg";
 import testImg from "../public/assets/projects/testing.jpg";
 import ProjectItem from "./ProjectItem";
@@ -18,6 +19,12 @@ const Projects = () => {
             description="Blockchain project"
             backgroundImg={greenloopImg}
             projectUrl="/greenloop"
+          />
+          <ProjectItem
+            title="NFT based Game"
+            description="Blockchain project"
+            backgroundImg={nftGameImg}
+            projectUrl="/nftgame"
           />
           <ProjectItem
             title="Voting Smart Contract"
