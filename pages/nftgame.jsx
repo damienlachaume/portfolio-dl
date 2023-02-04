@@ -26,10 +26,12 @@ const greenloop = () => {
         <div className="col-span-4">
           <h2 className="pb-2">Overview</h2>
           <p>
-            Beat The Troll is an NFT game created with buildspace. The contract
-            is deployed on the testnet network of Ethereum, Goerli. The game
-            allows you to chose a character (an elf, a human or a dwarf), team
-            up and try to beat a troll.
+            Beat The Troll is an NFT game built with buildspace. The contract is
+            deployed on the testnet network of Ethereum, Goerli. The game
+            proposes you to select a character a character (an elf, a human or a
+            dwarf), to assemble a team in order to fight an evil troll. <br />
+            <br />
+            Additional note : for now, the app only works with Metamask.
           </p>
           <a
             href="https://github.com/damienlachaume/buildspace-epic-game"
