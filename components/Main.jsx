@@ -18,10 +18,10 @@ const Main = () => {
           <h1 className="py-4 mt-3 text-gray-700">
             Hi, I&apos;m <span className="text-[#23d997]"> Damien</span>
           </h1>
-          <h1 className="py-2 text-gray-700">Blockchain Developer</h1>
+          <h1 className="py-2 text-gray-700">Web Developer</h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-            Passionate about the blockchain ecosystem and its use cases,
-            I&apos;ve learned programing Smart Contract with
+            Passionate about web technologies and blockchain, I&apos;ve learned
+            programing Smart Contract with
             <a
               className="font-bold"
               href="https://alyra.fr/"
@@ -30,8 +30,8 @@ const Main = () => {
             >
               &nbsp;Alyra&nbsp;
             </a>
-            in 2022. I can work with you to build decentralized applications on
-            EVM-compatible blockchains.
+            in 2022. I can work with you to build standard web applications and
+            decentralized applications.
           </p>
           <div className="flex items-center justify-between max-w-[412px] m-auto py-4">
             <a

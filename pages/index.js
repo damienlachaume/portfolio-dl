@@ -10,11 +10,10 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Damien Lachaume | Blockchain Developer</title>
+        <title>Damien Lachaume | Web Developer | Blockchain Developer</title>
         <meta
           name="description"
-          content="I'm a French developer passionate about the blockchain ecosystem and its use cases. I can work with you to build decentralized applications on
-          EVM-compatible blockchains."
+          content="I'm a French developer passionate about web technologies and blockchain. I can work with you to build  standard web applications and decentralized applications."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
