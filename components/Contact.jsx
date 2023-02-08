@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
+import React from "react";
 import { TbLeaf } from "react-icons/tb";
 import { FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
@@ -8,7 +8,6 @@ import ContactImg from "../public/assets/contact.jpg";
 import MailBoxImg from "../public/assets/mailbox.png";
 
 const Contact = () => {
-  const [gotcha, setGotcha] = useState(false);
   return (
     <div id="contact" className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-32 w-full ">
@@ -91,12 +90,6 @@ const Contact = () => {
                 method="POST"
                 encType="multipart/form-data"
               >
-                <input
-                  type="hidden"
-                  name="firstName"
-                  styles="display:none !important"
-                  onChange={() => setGotcha(true)}
-                />
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2">Name</label>
@@ -123,11 +116,9 @@ const Contact = () => {
                     name="message"
                   />
                 </div>
-                {!gotcha && (
-                  <button className="w-full p-4 text-gray-100 mt-4">
-                    Send Message
-                  </button>
-                )}
+                <button className="w-full p-4 text-gray-100 mt-4">
+                  Send Message
+                </button>
               </form>
             </div>
           </div>
