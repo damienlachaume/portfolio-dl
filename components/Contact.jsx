@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect } from "react";
 import { TbLeaf } from "react-icons/tb";
 import { FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
@@ -8,6 +8,21 @@ import ContactImg from "../public/assets/contact.jpg";
 import MailBoxImg from "../public/assets/mailbox.png";
 
 const Contact = () => {
+  useEffect(() => {
+    const executeRecaptcha = async () => {
+      await grecaptcha.ready(function () {
+        grecaptcha
+          .execute(process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY, {
+            action: "homepage",
+          })
+          .then(function (token) {
+            document.getElementById("captchaResponse").value = token;
+          });
+      });
+    };
+
+    executeRecaptcha();
+  }, []);
   return (
     <div id="contact" className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-32 w-full ">
@@ -116,6 +131,11 @@ const Contact = () => {
                     name="message"
                   />
                 </div>
+                <input
+                  type="hidden"
+                  id="captchaResponse"
+                  name="g-recaptcha-response"
+                ></input>
                 <button className="w-full p-4 text-gray-100 mt-4">
                   Send Message
                 </button>
